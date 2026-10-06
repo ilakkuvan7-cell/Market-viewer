@@ -1,0 +1,13 @@
+/* Smooth scrolling for the entire website */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll performance optimization (Lag reduce panna) */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* Hardware acceleration for smoother scrolling */
+  transform: translateZ(0); 
+}
